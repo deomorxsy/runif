@@ -1,0 +1,7 @@
+[package]
+name = "calee"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustler = { version = "...", features = ["nif_version_2_17"] }
