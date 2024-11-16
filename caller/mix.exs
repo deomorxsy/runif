@@ -24,7 +24,7 @@ defmodule Caller.MixProject do
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
       {:honey, git: "https://github.com/lac-dcc/honey-potion/", submodules: true},
-      {:rustler, "~> 0.22.0-rc.0"},
+      {:rustler, "~> 0.35.0", runtime: false},
     ]
   end
 end
